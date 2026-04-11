@@ -55,13 +55,15 @@ strong {
 }
 
 #about,
-#feature,
+#education,
+#projects,
 #contact {
   background: #ffffff;
 }
 
 #about,
-#feature,
+#education,
+#projects,
 #contact,
 footer {
   padding-top: 100px;
@@ -277,25 +279,62 @@ footer {
 }
 
 
-/* feature section */
-#feature {
+/* education section */
+#education {
   background: #f1c11a;
 }
 
-#feature .icon {
+#education .icon {
   color: #ffffff;
   font-size: 42px;
   padding-right: 14px;
 }
 
-#feature p {
+#education p {
   color: #333;
 }
 
-#feature .btn {
+#education .btn {
     background: transparent;
     border: 3px solid #ffffff;
     border-radius: 0px;
+    color: #ffffff;
+    font-weight: 700;
+    letter-spacing: 1px;
+    padding: 14px 36px;
+    margin-top: 42px;
+    -webkit-transition: all 0.4s ease-in-out;
+    transition: all 0.4s ease-in-out;
+}
+
+#education .btn:hover {
+  background: #ffffff;
+  color: #f1c11a;
+  border-color: transparent;
+}
+
+/* projects section */
+#projects {
+  background: #ffffff;
+}
+
+#projects .project-thumb {
+  margin-bottom: 30px;
+}
+
+#projects .project-thumb img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+#projects .project-thumb h3 {
+  margin-top: 15px;
+  color: #242424;
+}
+
+#projects .project-thumb p {
+  color: #828282;
+}
     color: #ffffff;
     font-size: 18px;
     font-weight: 700;
