@@ -3548,33 +3548,36 @@ hr {
 
 /* line 76, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
 .slider-area .hero__caption h1 {
-  font-size: 280px;
+  font-size: 120px;
   font-weight: 300;
   text-transform: uppercase;
   color: #670000;
   line-height: 1;
   margin-bottom: 39px;
   margin-bottom: 39px;
+  max-width: 100%;
+  white-space: normal;
+  word-break: break-word;
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 76, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption h1 {
-    font-size: 185px;
+    font-size: 95px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 76, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption h1 {
-    font-size: 137px;
+    font-size: 75px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 76, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption h1 {
-    font-size: 90px;
+    font-size: 55px;
     margin-bottom: 26px;
   }
 }
@@ -3582,7 +3585,7 @@ hr {
 @media (max-width: 575px) {
   /* line 76, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_h1-hero.scss */
   .slider-area .hero__caption h1 {
-    font-size: 63px;
+    font-size: 44px;
     margin-bottom: 26px;
   }
 }
