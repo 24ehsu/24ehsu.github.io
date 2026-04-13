@@ -3266,6 +3266,16 @@ hr {
   text-transform: capitalize;
 }
 
+.contact-page .header-area .menu-wrapper .main-menu ul li a,
+.contact-page .header-area .menu-wrapper .main-menu ul li a:hover,
+.contact-page .header-area .menu-wrapper .main-menu ul li.active::before {
+  color: #fff !important;
+}
+
+.contact-page .header-area .menu-wrapper .main-menu ul li.active::before {
+  background: #fff;
+}
+
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 54, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_headerMenu.scss */
   .header-area .menu-wrapper .main-menu ul li a {
@@ -3701,8 +3711,16 @@ hr {
 }
 
 .portfolio-page .our-services {
-  padding-top: 40px;
+  padding-top: 100px;
   padding-bottom: 40px;
+}
+
+.portfolio-page .our-services .section-tittle {
+  text-align: left;
+}
+
+.portfolio-page .our-services .row {
+  justify-content: flex-start;
 }
 
 /* line 1, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_about.scss */
