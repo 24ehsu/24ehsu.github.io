@@ -3684,6 +3684,27 @@ hr {
   }
 }
 
+.portfolio-page .hero-area2 {
+  height: 240px;
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+  .portfolio-page .hero-area2 {
+    min-height: 240px;
+  }
+}
+
+@media (max-width: 575px) {
+  .portfolio-page .hero-area2 {
+    min-height: 240px;
+  }
+}
+
+.portfolio-page .our-services {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+
 /* line 1, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_about.scss */
 .about-area {
   background: #ffff;
@@ -4057,6 +4078,9 @@ hr {
   font-weight: 300;
   font-size: 16px;
   color: #fff;
+  text-align: right;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* line 2, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_gallery.scss */
@@ -4201,6 +4225,11 @@ hr {
   -moz-transition: 0.4s;
   -o-transition: 0.4s;
   transition: 0.4s;
+}
+
+.portfolio-page .our-services .single-services {
+  border: 1px solid rgba(103, 0, 0, 0.12);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05);
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
