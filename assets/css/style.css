@@ -4027,6 +4027,10 @@ hr {
   font-weight: 300;
   font-size: 16px;
   color: #fff;
+  display: block;
+  text-align: right;
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 /* line 34, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_my-about.scss */
