@@ -4023,6 +4023,12 @@ hr {
   color: #fff;
 }
 
+.may-about .single-about .tittle-experience .workplace-name {
+  font-weight: 300;
+  font-size: 16px;
+  color: #fff;
+}
+
 /* line 34, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_my-about.scss */
 .may-about .single-about .experience-link a {
   font-weight: 300;
