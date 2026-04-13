@@ -4052,6 +4052,12 @@ hr {
   padding-left: 10px;
 }
 
+.may-about .single-about .experience-link p {
+  font-weight: 300;
+  font-size: 16px;
+  color: #fff;
+}
+
 /* line 2, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_gallery.scss */
 .gallery-area {
   background: #FFEFAE;
