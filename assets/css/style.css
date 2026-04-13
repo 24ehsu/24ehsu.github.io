@@ -2675,27 +2675,27 @@ hr {
 
 /* line 763, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
 .pt-top {
-  padding-top: 160px;
+  padding-top: 90px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 763, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
   .pt-top {
-    padding-top: 70px;
+    padding-top: 60px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 763, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
   .pt-top {
-    padding-top: 70px;
+    padding-top: 60px;
   }
 }
 
 @media (max-width: 575px) {
   /* line 763, C:/Users/HP/Desktop/jun-2020/283.Personal/assets/scss/_common.scss */
   .pt-top {
-    padding-top: 70px;
+    padding-top: 60px;
   }
 }
 
@@ -6168,6 +6168,10 @@ hr {
 
 .contact-info .media-body h3 {
   color: #fff;
+}
+
+.contact-caption {
+  margin-top: 20px;
 }
 
 .contact-caption h3,
